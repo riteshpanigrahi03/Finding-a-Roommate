@@ -1,0 +1,119 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    height: 60px 
+}
+
+li {
+    float: left;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    background-color: gray;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#input{
+    margin-top: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 30px;
+    border-radius: 12px
+    
+}
+#home1{
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#range{
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+#Rs{
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#rent{
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+#mv{
+    margin-right: 20px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#submit{
+    height: 40px;
+    width: 120px;
+    margin-top: 11px;
+    margin-left: 40px;
+    color: black;
+    font-size: 19px;
+    font-family: monospace;
+    font-weight: bold;
+}
+#down h1{
+    margin-top: 50px;
+    font-family: monospace;
+    font-size: 30px
+}
+
+#down h3{
+     margin-top: 26px;
+    font-family: monospace;
+    font-size: 20px;
+    float: left;
+    display: inline;
+}
+#down #wink{
+    height: 80px;
+    margin-bottom: 20px;
+    
+    
+}

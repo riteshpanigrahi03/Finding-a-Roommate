@@ -1,0 +1,90 @@
+
+
+#topbar img {
+    width: 400px;
+    height: 100px;
+    margin-top: 10px;
+}
+
+.button {
+    background-color: crimson; /* Green */
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    float: right;
+    margin-top: 50px;
+    margin-right: 30px;
+    height: 60px;
+    width: 150px
+}
+.button1 {border-radius: 12px;}
+#bg {
+    padding-top: 40px;
+    width: 1700px;
+    height: 1000px;
+}
+
+#niche {
+    height: 1100px;
+}
+#center{
+    margin-top: 0px;
+}
+#center h2{
+    text-align: center;
+    font-size: 50px;
+}
+#center #left{
+    width: 50%;
+    float: left;
+
+}
+#center #right{
+    width:50%;
+    float: right;
+}
+
+#center #left h3{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 20px
+    
+}
+
+#center #left p{
+    font-size: 25px;
+    margin-right: 30px;
+    margin-left: 20px
+}
+
+#center #left #match,#free{
+    width: 130px;
+    margin-top: 60px;
+    margin-left: 20px;
+    
+}
+#center #right h3{
+    font-weight: bolder;
+    font-size: 30px;
+    margin-left: 20px;
+    
+}
+
+#center #right p{
+    font-size: 25px;
+    margin-right: 30px;
+    margin-left: 20px
+}
+
+#center #right #safe,#here{
+    width: 130px;
+    margin-top: 60px;
+    margin-left: 20px;
+    
+}
